@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+}
+
+main{
+    height: 500px;
+}
+h1 {
+    color: chocolate;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family:  Verdana;
+}
+
+h2{
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
+
+footer{
+    background-color: lightsalmon;
+    height: 50px;
+    border-top: 1px solid black;
+}
+
+p{
+    text-align: center;
+    color: darkslategray;
+}
