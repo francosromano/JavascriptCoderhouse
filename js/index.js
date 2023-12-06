@@ -27,11 +27,10 @@ while (continuar === "si")
 /*********************************  Calculadora  (Funciones + Switch) ************************************/
 
 function sumar() {
-    const NUMERO_A = parseInt(prompt("Ingrese el primer número para sumar"));
+    const NUMERO_A =parseInt(prompt("Ingrese el primer número para sumar"));
     const NUMERO_B = parseInt(prompt("Ingrese el segundo número para sumar"));
     const RESULTADO = NUMERO_A + NUMERO_B
-    alert(NUMERO_A + " + " + NUMERO_B + " = " + RESULTADO)
-    console.log("El resultado de la suma es de "+ RESULTADO)
+    console.log("El resultado de " + NUMERO_A + " + " + NUMERO_B + " es " + RESULTADO)
 }
 
 function restar() {
@@ -39,7 +38,7 @@ function restar() {
     const NUMERO_B = parseInt(prompt("Ingrese el segundo número para restar"));
     const RESULTADO = NUMERO_A - NUMERO_B
     alert(NUMERO_A + " - " + NUMERO_B + " = " + RESULTADO)
-    console.log("El resultado de la resta es de "+ RESULTADO)
+    console.log("El resultado de " + NUMERO_A + " - " + NUMERO_B + " es " + RESULTADO)
 }
 
 function multiplicar() {
@@ -47,7 +46,7 @@ function multiplicar() {
     const NUMERO_B = parseInt(prompt("Ingrese el segundo número para multiplicar"));
     const RESULTADO = NUMERO_A * NUMERO_B
     alert(NUMERO_A + " x " + NUMERO_B + " = " + RESULTADO)
-    console.log("El resultado de la multiplicación es de "+ RESULTADO)
+    console.log("El resultado de " + NUMERO_A + " x " + NUMERO_B + " es " + RESULTADO)
 }
 
 function dividir() {
@@ -55,7 +54,7 @@ function dividir() {
     const NUMERO_B = parseInt(prompt("Ingrese el segundo número para dividir"));
     const RESULTADO = NUMERO_A / NUMERO_B
     alert(NUMERO_A + " / " + NUMERO_B + " = " + RESULTADO)
-    console.log("El resultado de la división es de "+ RESULTADO)
+    console.log("El resultado de " + NUMERO_A + " / " + NUMERO_B + " es " + RESULTADO)
 }
 
 function IVA() {
